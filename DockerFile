@@ -1,2 +1,0 @@
-# Configure InfluxDB§ docker image.
-FROM influxdb:2.5.0
