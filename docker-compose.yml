@@ -8,5 +8,6 @@ services:
       - 8086:8086
     restart: always
     volumes:
+      - .influx-configs:/etc/influxdb2/influx-configs:rw
       - ./config.yml:/etc/influxdb2/config.yml:rw
       - /var/lib/influxdb:/var/lib/influxdb2:rw
